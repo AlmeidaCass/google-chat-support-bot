@@ -184,7 +184,7 @@ function createMainMenu() {
                     {
                       "text": "📝 Abrir Chamado",
                       "icon": { "knownIcon": "TICKET" },
-                      "onClick": { "openLink": { "url": "https://chamados.intranet.coppead.ufrj.br/ServiceCatalog" } }
+                      "onClick": { "openLink": { "url": "https://chamados.com.br/ServiceCatalog" } }
                     }
                   ]
                 }
@@ -218,15 +218,15 @@ function createSystemsMenu() {
                 "buttons": [
                   {
                     "text": "🔗 Autônomo",
-                    "onClick": { "openLink": { "url": baseUrl + "?redirect=" + encodeURIComponent("http://autonomo:8089/autonomo-web") } }
+                    "onClick": { "openLink": { "url": baseUrl + "?redirect=" + encodeURIComponent("http://seulinkaqui") } }
                   },
                   {
                     "text": "🔗 Estoque",
-                    "onClick": { "openLink": { "url": baseUrl + "?redirect=" + encodeURIComponent("http://estoque:8089/estoque-web") } }
+                    "onClick": { "openLink": { "url": baseUrl + "?redirect=" + encodeURIComponent("http://seulinkaqui") } }
                   },
                   {
                     "text": "🔗 Orçamento",
-                    "onClick": { "openLink": { "url": baseUrl + "?redirect=" + encodeURIComponent("http://orcamento:8089/orcamento-web") } }
+                    "onClick": { "openLink": { "url": baseUrl + "?redirect=" + encodeURIComponent("http://seulinkaqui") } }
                   }
                 ]
               }
@@ -251,4 +251,5 @@ function createSystemsMenu() {
 
 function sendText(text) {
   return { "text": text };
+
 }
